@@ -2,38 +2,38 @@
 
 Predicting Dogs and Cats images using Xception pre-trained model from Keras library. It is reimplemented version from [HomeWork 8-deep learning](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/08-deep-learning) held by [DataTalksClub](https://datatalks.club/).
 
+## Model Demo
+
+
 ## About the Dataset
 #### Data Source
-I used the dataset from [Kaggle](https://github.com/alexeygrigorev/clothing-dataset-small)
+I used the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 ## Short Description of the Files
 1. [dogs-vs-cats.ipynb](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats.ipynb) -
 * used transfer learning to get Xception model pretrained on Imagnet.
 * freeze its CNN layers and train the dense layers.
 * used callbacks to save the best model over multiple epochs.
-* did some data augmentation to prevent overfitting and generalize our model.
+* did some data augmentation and dropout to prevent overfitting and generalize our model.
 * Evalutaing the model, Aciheved 96% accuracy.
 
-2. [dogs-vs-cats.py](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats.py) It deploy the trained model to streamlit cloud.
+2. [dogs-vs-cats_app.py](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats_app.py) It deploy the trained model to streamlit cloud.
 3. [xception_v9_03_0.965.h5](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/xception_v9_03_0.965.h5) - Best model from training saved in this binary format to load it easily.
 4. [Pipfile](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Pipfile) and [Pipfile.lock](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Pipfile.lock) - Python package dependencies, in the pipfile you can find all necessary librares and packages to be able to run the scripts with no problem.
 
-## How to run this model
-1. open this [link](https://share.streamlit.io/abdassalamahmad/dogs-vs-cats/main/dogs-vs-cats.py)
+## How to run this model and try it yourself
+1. open this [link](https://share.streamlit.io/abdassalamahmad/dogs-vs-cats/main/dogs-vs-cats_app.py)
 2. Upload an image from test dataset or any image from your device that has dog/s or cat/s.
 Note: watch this [video](https://vimeo.com/660210768/f434e41c32) to see the model in action
 
 ## How to reproduce this model
-1. clone this repo to get all the code.
-2. clone the dataset using this command
-```py
-!git clone git@github.com:alexeygrigorev/clothing-dataset-small.git
-```
-3. install pipenv -which is a packaging tool that will help installing all dependencies- , use this command on your terminal.
+1. Clone this repo to get all the code.
+2. Download the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
+3. Install pipenv -which is a packaging tool that will help installing all dependencies- , use this command on your terminal.
 ```py
 pip install pipenv
 ```
-4. install all dependencies using pipenv by typing this command in your terminal **inside your cloned repo folder** 
+4. Install all dependencies using pipenv by typing this command in your terminal **inside your cloned repo folder** 
 ```py
 pipenv install
 ```
