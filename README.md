@@ -1,16 +1,16 @@
-# Dogs-vs-Cats (validation accuracy 96%)
+# Dogs-vs-Cats-96% validation accuracy
 
 Predicting Dogs and Cats images using Xception pre-trained model from Keras library. It is reimplemented version from [HomeWork 8-deep learning](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/08-deep-learning) held by [DataTalksClub](https://datatalks.club/).
 
 ## Model Demo
-
+![Model Demo](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Dogs_VS_Cats.gif)
 
 ## About the Dataset
 #### Data Source
 I used the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 ## Short Description of the Files
-1. [dogs-vs-cats.ipynb](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats.ipynb) -
+1. [dogs-vs-cats.ipynb](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats.ipynb) - it's where the training happened (all the magic is here).
 * used transfer learning to get Xception model pretrained on Imagnet.
 * freeze its CNN layers and train the dense layers.
 * used callbacks to save the best model over multiple epochs.
@@ -24,7 +24,7 @@ I used the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
 ## How to run this model and try it yourself
 1. open this [link](https://share.streamlit.io/abdassalamahmad/dogs-vs-cats/main/dogs-vs-cats_app.py)
 2. Upload an image from test dataset or any image from your device that has dog/s or cat/s.
-Note: watch this [video](https://vimeo.com/660210768/f434e41c32) to see the model in action
+Note: watch this [video](https://vimeo.com/661221067/11c9c1fc72) to see the model in action
 
 ## How to reproduce this model
 1. Clone this repo to get all the code.
