@@ -1,4 +1,4 @@
-# Dogs-vs-Cats-96% validation accuracy
+# Dogs-vs-Cats (validation accuracy 96%)
 
 Predicting Dogs and Cats images using Xception pre-trained model from Keras library. It is reimplemented version from [HomeWork 8-deep learning](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/08-deep-learning) held by [DataTalksClub](https://datatalks.club/).
 
