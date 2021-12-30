@@ -13,7 +13,7 @@ model = keras.models.load_model("xception_v9_03_0.965.h5")
 
 def main():
     st.title("Dogs VS Cats")
-    uploaded_file = st.file_uploader("Upload a picture to predict its class", type=['jpg', 'jpeg', 'png'])
+    uploaded_file = st.file_uploader("Upload a picture to predict it is a cat or a dog", type=['jpg', 'jpeg', 'png'])
     if uploaded_file is not None:
         st.title("Here is the image you've uploded")
         image = Image.open(uploaded_file)
@@ -40,11 +40,10 @@ def predict_class(image):
     result=result[0]
     if result<=0.5:
         picture = 'cat'
-        result = "your picture contains {} ".format(picture)
+        result = "your picture contains a {} ".format(picture)
     else: 
         picture = 'dog'
-        result = "your picture contains {} ".format(picture)    
-    result = "your picture contains {} ".format(result)
+        result = "your picture contains a {} ".format(picture)    
     return (result)
 
 if __name__=='__main__':
