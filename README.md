@@ -20,7 +20,7 @@ I used the dataset from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data)
 2. [dogs-vs-cats_app.py](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/dogs-vs-cats_app.py) It deploy the trained model to streamlit cloud.
 3. [xception_v9_03_0.965.h5](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/xception_v9_03_0.965.h5) - Best model from training saved in this binary format to load it easily.
 4. [Pipfile](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Pipfile) and [Pipfile.lock](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Pipfile.lock) - Python package dependencies, in the pipfile you can find all necessary librares and packages to be able to run the scripts with no problem.
-5. [Homework8.ipynb]() - building a CNN from scatch and train it with data augmentation and solving the [homework questions](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/homework8.md).
+5. [Homework8.ipynb](https://github.com/AbdassalamAhmad/Dogs-vs-Cats/blob/main/Homework8.ipynb) - building a CNN from scatch and train it with data augmentation and solving the [homework questions](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/homework.md).
 
 ## How to run this model and try it yourself
 1. open this [link](https://share.streamlit.io/abdassalamahmad/dogs-vs-cats/main/dogs-vs-cats_app.py)
