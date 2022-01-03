@@ -41,7 +41,7 @@ pipenv install
 5. Deploying the app locally or on the web<br>
 5.1. Locally: open the terminal and use this command
 ```py
-streamlit run dogs_vs_cats_app.py.py
+streamlit run dogs_vs_cats_app.py
 ```
 5.2. on the web: check the [documentation](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app) from official website.  
 
